@@ -7,9 +7,13 @@
     font-family: 'Encode Sans SC', sans-serif;
 }
 body {
+    
     background-color: black;
 }
 .header {
+    
+    position: fixed;
+    width: 100%;
     background-color: #222;
 }
 .nav-menu {
@@ -136,9 +140,59 @@ body {
     width: 600px;
     margin: 0px 170px;
 }
+.wrapper-card {
+    margin: 0 auto;
+    width: 1250px;
+}
+.card-title {
+    margin-bottom: 40px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 650px;
+    color: rgb(255, 255, 255) ;
+}
+.card img {
+    width: 300px;
+    padding: 20px;
+}
+
+.card {
+    box-shadow: 5px 5px 8px 5px #0a0a0a;
+    text-align: center;
+    background-color: rgb(51, 49, 49);
+    display: inline-block;
+    /* padding-top: 500px; */
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 5px;
+    margin: 50px;
+
+}
+
+.card h4 {
+    padding: 10px;
+}
+
+
 @media screen and (min-width:1000px){
     .menu {
         width: 500px;
+    }
+   
+}
+@media screen and (max-width:1320px){
+    .card {
+        font-size: 25px;
+        padding: 5px;
+        margin: 50px;
+    }
+    .card img {
+        width: 250px;
+        padding: 20px;
+    }
+    .wrapper-card {
+        width: 1100px;
     }
    
 }
@@ -198,7 +252,10 @@ body {
     }
 }
 @media screen and (max-width:1000px){
-  
+    .header {
+    
+        position: static;
+    }
     .container {
         display: flex;
     }
@@ -221,6 +278,19 @@ body {
     }
     .wrapper {
         padding: 0px;
+    }
+                                 /* card */
+    .card {
+        font-size: 25px;
+        padding: 5px;
+        margin: 40px 150px;
+    }
+    .card img {
+        width: 500px;
+        padding: 20px;
+    }
+    .wrapper-card {
+        width: 800px;
     }
 }
 
@@ -248,6 +318,33 @@ body {
     }
     .container {
         margin: 25px 20px;   
+    }
+}
+
+@media screen and (max-width:750px){
+    
+    .card {
+        font-size: 25px;
+        padding: 5px;
+        margin: 40px 50px;
+    }
+    .card img {
+        width: 280px;
+        padding: 20px;
+    }
+    .wrapper-card {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .card {
+        font-size: 25px;
+        padding: 5px;
+        margin: 30px 30px;
+    }
+    .wrapper-card {
+        width: 300px;
     }
 }
 
