@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>grid website eze</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
 </head>
 <body>
     <nav>
@@ -29,21 +30,21 @@
     <!-- responsive nav -->
     <ul class="menu showmenu">
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#about">Contact</a></li>
         <li><a href="#">projects</a></li>
         <li><a href="#">Clients</a></li>
     </ul>
 </nav>
     <div class="wrapper">
         <div class="bodytxt">
-            <h1>Myst</h1>
-            <p>web developer &nbsp | &nbsp web designer &nbsp | &nbsp Anime weeb &nbsp | &nbsp Foodie </p>
+            <h1>bruh</h1>
+            <p>web develope &nbsp | &nbsp web design &nbsp </p>
         </div>
       
         <img id="body-img"  src="body-2.png" >
     </div>
-    <div class="wrapper-card">
+    <div class="wrapper-card" id="about">
         <h3 class="card-title">
             Our Experties
         </h3>
@@ -60,6 +61,27 @@
             <h4>JAVASCRIPT</h4>
         </div>
     </div>
+    <h3 id="re-title">Words From Clients</h3>
+    <article class="review">
+        <div class="img-container">
+          <img src="dummy.jpg" id="person-img" alt="" />
+        </div>
+        <div class="all-text">
+        <h4 id="author">sara jones</h4>
+        <p id="job">ux designer</p>
+        <p id="info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          asperiores debitis incidunt, eius earum ipsam cupiditate libero?
+          Iste, doloremque nihil?
+        </p>
+        </div>
+        <!-- prev next buttons-->
+        <div class="button-container">
+          <button class="prev-btn btn">	&#x0003C; </button>
+          <button class="next-btn btn">	&#x0003E;</button>
+        </div>
+      </article>
+
     <script src="script.js"></script>
 </body>
 </html>
