@@ -92,3 +92,6 @@ const reviews = [
     }
     showPerson(currentItem);
   });
+nextBtn.addEventListener("click", function(){
+    console.log('hello')
+}); 
